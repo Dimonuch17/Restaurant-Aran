@@ -1,0 +1,35 @@
+# XML Sitemap & Google News Feeds version 4.7.3 - http://status301.net/wordpress-plugins/xml-sitemap-feed/
+Sitemap: http://www.aran-kiev.com/sitemap.xml
+Sitemap: http://www.aran-kiev.com/sitemap-news.xml
+
+User-agent: Yandex
+Disallow: /wp-admin
+Disallow: /wp-includes
+Disallow: /wp-comments
+Disallow: /wp-content/plugins
+Disallow: /wp-content/themes
+Disallow: /wp-content/cache
+Disallow: /wp-login.php
+Disallow: /wp-register.php
+Disallow: */trackback
+Disallow: */feed
+Disallow: /cgi-bin
+Disallow: /tmp/
+Disallow: *?s=
+ 
+User-agent: *
+Disallow: /wp-admin
+Disallow: /wp-includes
+Disallow: /wp-comments
+Disallow: /wp-content/plugins
+Disallow: /wp-content/themes
+Disallow: /wp-content/cache
+Disallow: /wp-login.php
+Disallow: /wp-register.php
+Disallow: */trackback
+Disallow: */feed
+Disallow: /cgi-bin
+Disallow: /tmp/
+Disallow: *?s=
+ 
+Host: aran-kiev.com
